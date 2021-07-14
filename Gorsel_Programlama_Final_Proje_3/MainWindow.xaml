@@ -1,0 +1,18 @@
+﻿<Window x:Class="Gorsel_Programlama_Final_Proje_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gorsel_Programlama_Final_Proje_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="jsonText" HorizontalAlignment="Left" Height="340" Margin="526,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="235" TextChanged="jsonText_TextChanged"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Height="35" Margin="125,103,0,0" TextWrapping="Wrap" Text="Tarih" VerticalAlignment="Top" Width="183" TextChanged="input1_TextChanged"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Height="44" Margin="125,155,0,0" TextWrapping="Wrap" Text="Derece" VerticalAlignment="Top" Width="183"/>
+        <TextBox x:Name="input3" HorizontalAlignment="Left" Height="35" Margin="125,213,0,0" TextWrapping="Wrap" Text="Şehir Giriniz" VerticalAlignment="Top" Width="183"/>
+        <Button Content="Json'a Dönüştür" HorizontalAlignment="Left" Margin="125,277,0,0" VerticalAlignment="Top" Width="183" Height="45" Click="Button_Click"/>
+        <Label Content="Hava Durumu Json Formatlama Uygulaması" FontSize="20" HorizontalAlignment="Left" Margin="24,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.518,-0.508" Width="399" Height="38"/>
+
+    </Grid>
+</Window>
